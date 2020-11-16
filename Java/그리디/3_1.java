@@ -8,6 +8,7 @@ class Main {
     int m = scan.nextInt(); // 열의 개수
 
     int result = 0;
+    
     for(int i=0; i<n; i++){
       int minNum = 10001; // 비교 기준값
       for(int j=0; j<m; j++){
