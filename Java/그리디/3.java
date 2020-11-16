@@ -23,7 +23,7 @@ class Main {
         }
       }
       number[i] = num; // 해당 행에서 가장 작은 수 저장
-      num = 100;
+      num = 10000;
     }
 
     Arrays.sort(number, Collections.reverseOrder()); // 배열 내림차순 정렬
