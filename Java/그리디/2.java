@@ -10,10 +10,8 @@ class Main {
     Integer[] arr = new Integer[n]; // 입력받은 배열
     int result = 0; // 결과값
 
-    /*int cnt = (m / (k+1)) * k; // 가장 큰 수를 더할 횟수
-    cnt +=  m % (k+1);*/
-
-    int cnt = (m / k) * k;
+    int cnt = (m / (k+1)) * k; // 가장 큰 수를 더할 횟수
+    cnt +=  m % (k+1);
     m = m - cnt; // 두번째 큰 수를 더할 횟수
 
     for(int i=0; i<n; i++){
