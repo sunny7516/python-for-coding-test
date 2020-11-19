@@ -12,6 +12,7 @@ class Main {
       for(int j=i; j>0; j--){
         // 왼쪽으로 이동하면서 비교 
         if(arr[j] < arr[j-1]){
+          // 작으면 교체 
           int tmp = arr[j];
           arr[j] = arr[j-1];
           arr[j-1] = tmp;
