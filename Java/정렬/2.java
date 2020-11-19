@@ -6,6 +6,7 @@ class Main {
     Scanner scan = new Scanner(System.in);
     int n = scan.nextInt();
     
+    // 배열값 입력 
     Integer[] arr = new Integer[n];
     for(int i=0; i<n; i++){
       arr[i] = scan.nextInt();
