@@ -1,7 +1,7 @@
 import java.util.*;
 
-// 부품 찾기_set함수
 class Main {
+  // 부품 찾기_set함수
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
 
