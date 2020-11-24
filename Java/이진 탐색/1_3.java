@@ -1,24 +1,20 @@
 import java.util.*;
 
-// 이진 탐색 재귀문
+// 이진탐색 반복문 사용
 class Main {
 
   public static int binarySearch(int start, int end, int target, int[] arr){
-    if(start > end) return -1;
-    int check = (start + end) / 2;
-    // 찾은 경우
-    if(arr[check] == target){ 
-      // 인덱스 반환
-      return check; 
-    // 중간값보다 찾는 값이 큰 경우 
-    }else if(arr[check] < target){
-      // 오른쪽 확인
-      return binarySearch(check+1, end, target, arr);
-    }else{ // 중간값보다 찾는 값이 작은 경우
-      // 왼쪽 확인 
-      return binarySearch(start, check-1, target, arr);
+
+    while(start <= end){
+      int check = (start + end) / 2;
+
+      // 찾은 경우
+      if(arr[check] == target) return check; 
+      else if(arr[check] > target) end = check - 1;
+      else start = check + 1;
     }
-  }
+      return -1;
+    }
 
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
