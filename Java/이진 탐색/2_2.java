@@ -1,7 +1,7 @@
 import java.util.*;
 
-// 부품 찾기_계수 정렬
 class Main {
+  // 부품 찾기_계수 정렬 
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
 
