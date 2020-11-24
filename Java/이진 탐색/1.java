@@ -1,5 +1,6 @@
 import java.util.*;
 
+// 순차 탐색
 class Main {
 
   // 순차 탐색 소스코드 구현
