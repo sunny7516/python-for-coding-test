@@ -1,6 +1,6 @@
 import java.util.*;
 
-// 이진 탐색 재귀문
+// 이진 탐색 (재귀문)
 class Main {
 
   public static int binarySearch(int start, int end, int target, int[] arr){
