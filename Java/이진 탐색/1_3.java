@@ -1,6 +1,6 @@
 import java.util.*;
 
-// 이진탐색 반복문 사용
+// 이진탐색 (반복문)
 class Main {
 
   public static int binarySearch(int start, int end, int target, int[] arr){
