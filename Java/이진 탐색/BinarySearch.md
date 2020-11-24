@@ -1,9 +1,9 @@
 # 이진 탐색
 
-* Part02 CHAPTER07 이진 탐색
+* Part02 CHAPTER07 이진탐색
   * 부품 찾기
   * 떡볶이 떡 만들기
-* Part03 CHAPTER15 이진 탐색
+* Part03 CHAPTER15 이진탐색
   * 정렬된 배열에서 특정 수의 개수 구하기
   * 고정점 찾기
   * 공유기 설치
