@@ -10,7 +10,7 @@ class Main {
       // 기준값보다 앞에 있는 인덱스만 확인
       for(int j=i; j>0; j--){
         if(arr[j] < arr[j-1]){
-          // 기준보다 작은 값 스와프 
+          // 기준보다 큰 값 스와프 
           int tmp = arr[j];
           arr[j] = arr[j-1];
           arr[j-1] = tmp;
